@@ -1,9 +1,16 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
+
 int main()
 {
-	int a;
-	cout << "hello" << endl;
+	string word1;
+	string word2;
+	while (getline(cin,word1))
+		while(getline(cin,word2))
+		cout << word1+word2 << endl;
+
+	return 0;
 }
